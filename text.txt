@@ -25,3 +25,5 @@ pertanyaanya ? kenapa perlu visibility
 1.hanya memperlihatkan aspek dari class yang dibutuhkan oleh client
 2.menentukan kebutuhan yang jelas untuk object
 3.memberikan kendali pada kode untuk menghindari BUG
+
+setter and getter(erat kaitannya sama pembahasan visibility)
