@@ -1,0 +1,10 @@
+property (datanya)
+-mempresentasikan data keadaan dari sebuah object
+-variabel yang ada didalam object
+-sama seperti variabel didalam PHP, ditambah dengan visibility didepannya
+
+method (perilakunya)
+-mempresentasikan prilaku dari sebuah object
+-fungtion yang ada disalam object
+-sama seperti variabel didalam PHP, ditambah dengan visibility didepannya
+
