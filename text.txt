@@ -8,3 +8,20 @@ method (perilakunya)
 -fungtion yang ada disalam object
 -sama seperti variabel didalam PHP, ditambah dengan visibility didepannya
 
+inheriten
+-pewarisan class parent
+-bisa mendapat attribut yang di punyai parent dan dapat diakses dalam class cild/inheriten
+
+overriding
+-menimpah mothot class
+
+visibility 
+-konsep yang digunakan untuk mengatur akses dari property dan methot pada suatu objek
+-ada 3 keyword visibility : public, protected, dan private
+-public: dapat digunakan dimana saja, bahkan diluar kelas.
+-protected: hanya dapat digunakan didalam sebuah kelas beserta turunannya.
+-private: hanya dapat digunakan didalam sebuah kelas tertentu saja.
+pertanyaanya ? kenapa perlu visibility
+1.hanya memperlihatkan aspek dari class yang dibutuhkan oleh client
+2.menentukan kebutuhan yang jelas untuk object
+3.memberikan kendali pada kode untuk menghindari BUG
