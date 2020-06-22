@@ -34,3 +34,8 @@ static keyword
 -membuat kode menjadi procerural
 -biasanya dipake untuk fungsi bantuan
 -atau digunakan di class utility pada framework
+
+constanta
+-sama seperti variable tapi nilainya tidak berubah
+code menggunakan define()
+atau menggunakan const
