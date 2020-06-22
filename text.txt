@@ -27,3 +27,10 @@ pertanyaanya ? kenapa perlu visibility
 3.memberikan kendali pada kode untuk menghindari BUG
 
 setter and getter(erat kaitannya sama pembahasan visibility)
+
+static keyword
+-member yang terikat dengan class, bukan dengan object
+-nilai static akan selalu tetap meskipun object di instansiasi berulang kali
+-membuat kode menjadi procerural
+-biasanya dipake untuk fungsi bantuan
+-atau digunakan di class utility pada framework
