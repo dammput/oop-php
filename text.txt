@@ -47,3 +47,9 @@ Abstract class (menggunakan class ini hanya keputusan pembuatan class, bisa dipa
 -berperan sebagai kerangka dasar
 -memiliki minimal 1 methot abstrak
 -digunakan dalam pewarisa nutuk memaksakan implementasi method abstraak yang sama untuk semua kelas turunannya.
+
+insterface
+hanya pemodelan biar rapi ketika membuat konsep OOP
+
+outoloading
+-digunakan untuk membedakan file tiap class
