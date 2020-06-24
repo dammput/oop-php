@@ -53,6 +53,7 @@
 
         public function getDiskon(){
             return $this->diskon;
+            
         }
 
         public function setHarga( $harga ){

@@ -39,3 +39,11 @@ constanta
 -sama seperti variable tapi nilainya tidak berubah
 code menggunakan define()
 atau menggunakan const
+
+Abstract class (menggunakan class ini hanya keputusan pembuatan class, bisa dipake bisa juga tidak)
+-adalah sebuah class yang nantinya tidak dapat di instansiasi
+-kelas Abstract
+-mendefinisan insterface untuk turunannya
+-berperan sebagai kerangka dasar
+-memiliki minimal 1 methot abstrak
+-digunakan dalam pewarisa nutuk memaksakan implementasi method abstraak yang sama untuk semua kelas turunannya.
