@@ -11,9 +11,21 @@ method (perilakunya)
 inheriten
 -pewarisan class parent
 -bisa mendapat attribut yang di punyai parent dan dapat diakses dalam class cild/inheriten
+    class Komik extends Produk {
+        public function getInfoProduk(){
+            $str = "Komik : {$this->judul} | {$this->getLabel()} (Rp. {$this->harga}) - {$this->halaman} Halaman.";
+            return $str;
+        }
+    }
+    class
 
 overriding
--menimpah mothot class
+-menimpah methot class
+public function getInfoProduk(){
+$str = "{$this->judul} | {$this->getLabel()} (Rp. {$this->harga})";
+menjadi
+public function getInfoProduk(){
+$str = "Komik : ". parent::getInfoProduk() . " - {$this->jmlHalaman} Halaman.";
 
 visibility 
 -konsep yang digunakan untuk mengatur akses dari property dan methot pada suatu objek
@@ -53,3 +65,19 @@ hanya pemodelan biar rapi ketika membuat konsep OOP
 
 outoloading
 -digunakan untuk membedakan file tiap class
+
+namescpace 
+untuk mempermudah inisialisasi methot
+agar tidak terjadi tabrakan class apabila ada class yang sama
+penulisannya pada tag awal 
+namespace App\Produk;
+
+pemanggilannya menggunakan inisialisasi
+use App\Service\User as ServiceUser;
+use App\Produk\User as ProdukUser;
+
+
+// new App\Produk\User();
+new ServiceUser();
+echo "<br>";
+new ProdukUser();
